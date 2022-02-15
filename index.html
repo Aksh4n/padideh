@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+     * {
+   box-sizing: border-box;
+ }
+ .menu {
+   float: left;
+   width: 20%;
+ }
+ .menuitem {
+   padding: 8px;
+   margin-top: 7px;
+   border-bottom: 1px solid #f1f1f1;
+ }
+ .main {
+   float: left;
+   width: 60%;
+   padding: 0 20px;
+   overflow: hidden;
+ }
+ .right {
+   background-color: lightblue;
+   float: left;
+   width: 20%;
+   padding: 10px 15px;
+   margin-top: 7px;
+ }
+
+ @media only screen and (max-width:800px) {
+   /* For tablets: */
+   .main {
+     width: 80%;
+     padding: 0;
+   }
+   .right {
+     width: 100%;
+   }
+ }
+ @media only screen and (max-width:500px) {
+   /* For mobile phones: */
+   .menu, .main, .right {
+     width: 100%;
+   }
+ }
+    
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      
+    }
+    
+    .topnav {
+      overflow: hidden;
+      background-color: rgb(110, 34, 104);
+      width: 100%;
+    }
+    
+    .topnav a {
+      float: right;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 20px;
+    }
+    
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    
+    .topnav a.active {
+      background-color: #b7b90e;
+      color: white;
+    }
+
+    .dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 20px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(196, 207, 32);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #5e1461;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: rgb(252, 243, 243);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+    
+    </style>
+    <title>پدیده فوم</title>
+    </head>
+    <body>
+    
+    <div class="topnav">
+      <a style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" class="active" href="#home">صفحه اصلی</a>
+      <div class="dropdown">
+        <button class="dropbtn" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">محصولات 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">بلوک سقفی پلی استایرن</a>
+          <a href="#">بلوک دیواری سبک دانه</a>
+          <a href="#">پدیده تیرچه</a>
+        </div>
+      </div> 
+      <div class="dropdown">
+        <button class="dropbtn" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">درباره ما 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">افتخارات</a>
+          <a href="#">پروژه ها</a>
+          <a href="#">تاریخچه پدیده فوم </a>
+        </div>
+      </div> 
+      <div class="dropdown">
+        <button class="dropbtn" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">گالری 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">تصاویر محصولات</a>
+          <a href="#">تیزر تبلیغاتی</a>
+          <a href="#">روش اجرا </a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">جدول قیمت 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">بلوک سقفی و ورق</a>
+          <a href="#">بلوک دیواری </a>
+          <a href="#">تیرچه  </a>
+        </div>
+    </div>        
+      <a style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="#contact">تماس با ما</a>
+      
+
+      <div>
+        <img src="http://padidehfoam.com/files/7db8f876-0f02-41dd-b799-12d2caf93d81.png" alt="logo" style="width: 20%;">   
+
+      </div>
+    </div> 
+    </body>   
+ 
+ <head>
+   <style>
+  body {margin:25px;}
+
+  div.polaroid {
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+  }
+  
+  div.container {
+    text-align: right;
+    padding: 10px 20px;
+  }
+  button {
+    width: auto;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    
+    text-align: center;
+    text-decoration: none;
+    border-radius: 12px;
+    display: inline-block;
+    font-size: 30px;
+    transition-duration: 0.4s;
+    
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+  }
+  button:hover {
+    background-color: #b7b90e;
+  }
+ 
+  
+  </style>
+  
+ </head>
+ <body>
+   
+<div class="polaroid">
+  <img src="http://padidehfoam.com/files/b9e1e930-ca16-41d7-94f9-9462d8f2205a.jpg" alt="5 Terre" style="width:50%">
+  <img src="http://padidehfoam.com/files/4ce244b0-145d-488c-90d6-90e3fc2c7ad8.png" alt="Norther Lights" style="width: 50%; float: right;">
+  <button style="width: 50%; float: right;position: relative; bottom: 50px;">ثبت سفارش</button>
+  <div class="container">
+    
+    
+    
+
+
+   
+    
+  
+  </div>
+</div>
+
+   
+ </body>
+
+  
+
+
+    
+
+
+</html>
